@@ -162,6 +162,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
+    twitter-bootstrap-rails-confirm (2.0.1)
     tzinfo (1.2.8)
       thread_safe (~> 0.1)
     tzinfo-data (1.2020.4)
@@ -200,6 +201,7 @@ DEPENDENCIES
   selenium-webdriver
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
+  twitter-bootstrap-rails-confirm
   tzinfo-data
   web-console (>= 3.3.0)
   webdrivers
