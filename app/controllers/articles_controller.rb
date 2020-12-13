@@ -19,6 +19,7 @@ class ArticlesController < ApplicationController
   def create
     #white listing only title and description
     @article = Article.new(article_params)
+    # below is temporary:
     @article.user = User.first
     if @article.save
       flash[:notice] = "Article was created successfully."
